@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(35, 35, 60) !important;
+
+}
+
+header {
+  height: 90vh;
+}
+
+h1 {
+  margin: 0px !important;
+}
+
+a {
+  font-size: 12px !important;
+}
+
+.splash-card {
+  padding: 5vh;
+}
+
+.banner {
+  height: 10vh;
+}
+
+.navtop {
+  background-color: rgba(240, 248, 255, 0) !important;
+}
+
+.splash-img {
+  background-position: center;
+  background-size: contain;
+  opacity: .5;
+}
+
+.carousel-splash {
+  background-size: contain;
+}
+
+.card {
+  padding: 0px;
+  margin: 0px !important;
+}
+
+.card-banner {
+  min-height: 50vh;
+}
+
+.banner-image {
+  background-image: url('https://images.unsplash.com/photo-1526848772874-4a71ae4b288f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+  object-fit: contain;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+@media(max-width:768px) {
+  .banner-image {
+    background-size: 200%;
+    object-fit: cover;
+  }
+}
+
+.banner-image h3 {
+  color: white;
+  position: relative;
+  top: 12rem;
+  font-size: 2rem;
+}
+
+.banner-image p {
+  color: white;
+  position: relative;
+  top: 12rem;
+  font-size: 1.3rem;
+}
+
+#ctabutton {
+  position: relative;
+  top: 12rem;
+}
+
+#gsbutton {
+  position: relative;
+}
+
+.test-banner {
+  background-color: white;
+  padding-left: 3rem !important;
+}
+
+.test-banner-ow {
+  background-color: rgb(227, 227, 227);
+  padding-left: 3rem !important;
+  height: 50vh;
+}
+
+.col-test {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-test span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.menubutton {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  align-items: end;
+  top: 1rem;
+  right: 1rem;
+}
+
+@media(max-width:768px) {
+  .navlinks {
+    display: none !important;
+  }
+
+  .menubutton {
+    display: flex;
+
+  }
+}
+
+.menubuttonbar {
+  background-color: white;
+  height: 4px;
+  width: 30px;
+  margin: 2px 0rem;
+  border-radius: 10px;
+}
